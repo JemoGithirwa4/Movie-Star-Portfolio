@@ -1,0 +1,81 @@
+<svg width="100%" height="100%" viewBox="0 0 1366 768" xmlns="http://www.w3.org/2000/svg" style="background-color:#0b131d;">
+  <!-- Line 1 -->
+  <line x1="0" y1="50" x2="200" y2="250" stroke="#009090" stroke-width="2" stroke-dasharray="4 8">
+    <animate 
+      attributeName="x1" 
+      from="0" 
+      to="1366" 
+      dur="3s" 
+      repeatCount="indefinite" />
+    <animate 
+      attributeName="x2" 
+      from="200" 
+      to="1566" 
+      dur="3s" 
+      repeatCount="indefinite" />
+  </line>
+
+  <!-- Line 2 -->
+  <line x1="100" y1="150" x2="300" y2="350" stroke="#009090" stroke-width="2" stroke-dasharray="4 8">
+    <animate 
+      attributeName="x1" 
+      from="100" 
+      to="1466" 
+      dur="2.5s" 
+      repeatCount="indefinite" />
+    <animate 
+      attributeName="x2" 
+      from="300" 
+      to="1666" 
+      dur="2.5s" 
+      repeatCount="indefinite" />
+  </line>
+
+  <!-- Line 3 -->
+  <line x1="200" y1="300" x2="400" y2="500" stroke="#009090" stroke-width="2" stroke-dasharray="4 8">
+    <animate 
+      attributeName="x1" 
+      from="200" 
+      to="1566" 
+      dur="2.8s" 
+      repeatCount="indefinite" />
+    <animate 
+      attributeName="x2" 
+      from="400" 
+      to="1766" 
+      dur="2.8s" 
+      repeatCount="indefinite" />
+  </line>
+
+  <!-- Line 4 -->
+  <line x1="300" y1="400" x2="500" y2="600" stroke="#009090" stroke-width="2" stroke-dasharray="4 8">
+    <animate 
+      attributeName="x1" 
+      from="300" 
+      to="1666" 
+      dur="3.5s" 
+      repeatCount="indefinite" />
+    <animate 
+      attributeName="x2" 
+      from="500" 
+      to="1866" 
+      dur="3.5s" 
+      repeatCount="indefinite" />
+  </line>
+
+  <!-- Line 5 -->
+  <line x1="400" y1="100" x2="600" y2="300" stroke="#009090" stroke-width="2" stroke-dasharray="4 8">
+    <animate 
+      attributeName="x1" 
+      from="400" 
+      to="1766" 
+      dur="2.2s" 
+      repeatCount="indefinite" />
+    <animate 
+      attributeName="x2" 
+      from="600" 
+      to="1966" 
+      dur="2.2s" 
+      repeatCount="indefinite" />
+  </line>
+</svg>

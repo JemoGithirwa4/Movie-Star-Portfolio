@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Actor Portfolio</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Social Media Bar -->
+  <div class="social-media-bar">
+    <a href="https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2F" target="_blank" class="text-white mx-2"><i class="fab fa-facebook"></i></a>
+    <a href="https://www.instagram.com/" target="_blank" class="text-white mx-2"><i class="fab fa-instagram"></i></a>
+    <a href="https://www.youtube.com/" target="_blank" class="text-white mx-2"><i class="fab fa-youtube"></i></a>
+    <a href="https://www.tiktok.com/" target="_blank" class="text-white mx-2"><i class="fab fa-tiktok"></i></a>
+    <a href="https://x.com/" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+  </div>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-cust">
+    <a class="navbar-brand" href="#">
+      <span class="brand-highlight">JON</span> PAUL
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#featured-work">Featured Work</a></li>
+        <li class="nav-item"><a class="nav-link" href="#photos">Photo gallery</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  
+  <!-- Hero Section -->
+  <section class="hero-section" id="home">
+    <div>
+      <h1><span class="highlight">My</span> Bio</h1>
+      <p>Jon Paul is a versatile and captivating actor with a passion for storytelling. With a strong foundation in acting, Jon Paul has honed their craft through rigorous training and experience. Known for their ability to embody a wide range of characters, Jon Paul has appeared in films such as "Mumbo Jumbo", "Twende Kiboko", "Usaliti" among others. Recent credits include [recent projects] and upcoming projects include [upcoming projects]. Jon Paul is eager to collaborate with talented filmmakers and bring their unique perspective to the screen.</p>
+      <a href="#" target="_blank" class="button">Download Full Resume (PDF)</a>
+    </div>
+    <div id="inval">
+      <img src="images/actor.png" alt="Actor image"/>
+    </div>
+  </section>
+
+  <section id="featured-work" class="container text-center">
+    <h2>Featured Work</h2>
+    <div class="my-carousel">
+      <div class="carousel-items active" id="acting">Reels</div>
+      <div class="carousel-items" id="featured"> Featured</div>
+      <div class="carousel-items" id="upcoming">Upcoming</div>
+    </div>
+    
+    <div class="movie-gallery acting live">
+      <div class="movie-item" onclick="openVideoModal('videos/vid1.mp4')">
+        <img src="images/thumbnails/vid1.png" alt="Movie Thumbnail">
+        <div class="play-icon"><i class="fa-solid fa-play"></i></div> 
+        <div class="movie-info">
+          <h3>Monkey Bizz</h3>
+          <p>🤣🤣🤣</p>
+        </div>
+      </div>
+      <div class="movie-item" onclick="openVideoModal('videos/vid2.mp4')">
+        <img src="images/thumbnails/vid2.png" alt="Movie Thumbnail">
+        <div class="play-icon"><i class="fa-solid fa-play"></i></div>
+        <div class="movie-info">
+          <h3>Movies be like</h3>
+          <p>🤣🤣🤣</p>
+        </div>
+      </div>
+      <div class="movie-item" onclick="openVideoModal('videos/vid3.mp4')">
+        <img src="images/thumbnails/vid3.png" alt="Movie Thumbnail">
+        <div class="play-icon"><i class="fa-solid fa-play"></i></div> 
+        <div class="movie-info">
+          <h3>Chase your dreams!</h3>
+          <p>🤣🤣🤣</p>
+        </div>
+      </div>
+      <div class="movie-item" onclick="openVideoModal('videos/vid4.mp4')">
+        <img src="images/thumbnails/vid4.png" alt="Movie Thumbnail">
+        <div class="play-icon"><i class="fa-solid fa-play"></i></div>
+        <div class="movie-info">
+          <h3>Mama umepika mboka kani!?</h3>
+          <p>🤣🥗🥙</p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="movie-gallery featured">
+      <a href="" target="_blank">
+        <div class="movie-item">
+          <img src="images/featuredmovies/movie1.jfif" alt="Movie 1">
+          <div class="movie-info">
+            <h3>Katikati</h3>
+            <p>2016</p>
+          </div>
+        </div>
+      </a>
+
+      <a href="" target="_blank">
+        <div class="movie-item">
+          <img src="images/featuredmovies/movie2.jfif" alt="Movie 2">
+          <div class="movie-info">
+            <h3>Uradi</h3>
+            <p>2020</p>
+          </div>
+        </div>
+      </a>
+
+      <a href="" target="_blank">
+        <div class="movie-item">
+          <img src="images/featuredmovies/movie3.jfif" alt="Movie 2">
+          <div class="movie-info">
+            <h3>Supa Modo</h3>
+            <p>2018</p>
+          </div>
+        </div>
+      </a>
+    </div>
+
+    <div class="movie-gallery upcoming">
+      <a href="" target="_blank">
+        <div class="movie-item">
+          <img src="images/upcomingmovies/movie1.jfif" alt="Movie 1">
+          <div class="movie-info">
+            <h3>Otis Janam</h3>
+            <p>2025<p>
+          </div>
+        </div>
+      </a>
+
+      <a href="" target="_blank">
+        <div class="movie-item">
+          <img src="images/upcomingmovies/movie2.jfif" alt="Movie 2">
+          <div class="movie-info">
+            <h3>Kuyo</h3>
+            <p>2025</p>
+          </div>
+        </div>
+      </a>
+    </div>
+    
+    <!-- Video Modal -->
+    <div id="videoModal" class="modal">
+      <span class="close" onclick="closeVideoModal()">&times;</span>
+      <video id="modalVideo" controls></video>
+    </div>
+    
+    
+  </section>
+
+  <section id="photos" class="text-center">
+    <h2>Photo Gallery</h2>
+    <div class="photo-gallery upcoming">
+      <div class="photo-item">
+        <img src="images/photos/photo1.jpg" alt="Photo 1">
+      </div>
+
+      <div class="photo-item">
+        <img src="images/photos/photo2.jpg" alt="Photo 2">
+      </div>
+      <div class="photo-item">
+        <img src="images/photos/photo3.jpg" alt="Photo 3">
+      </div>
+      <div class="photo-item">
+        <img src="images/photos/photo4.jpg" alt="Photo 4">
+      </div>
+      <div class="photo-item">
+        <img src="images/photos/photo5.jpg" alt="Photo 5">
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="container text-center">
+    <h2>Contact</h2>
+    <form>
+      <label for="name">Full Name</label>
+      <input type="text" id="name" placeholder="Your Name">
+      
+      <label for="email">Email Address</label>
+      <input type="email" id="email" placeholder="Your Email">
+      
+      <label for="message">Message</label>
+      <textarea id="message" placeholder="Type your message here…"></textarea>
+      
+      <button type="submit" class="button">Send Message</button>
+    </form>
+  </section>
+
+  <footer class="my-footer bg-dark text-white py-4">
+    <div class="container">
+      <div class="row">
+  
+        <!-- About Section -->
+        <div class="col-md-4">
+          <h5>About</h5>
+          <p>
+            Jon Paul is an award-winning actor, producer, and martial artist known for his dedication to the craft of storytelling and action choreography. Follow his journey here!
+          </p>
+        </div>
+  
+        <!-- Navigation Links -->
+        <div class="col-md-4">
+          <h5>Quick Links</h5>
+          <ul class="list-unstyled">
+            <li><a href="#home" class="text-white">Home</a></li>
+            <li><a href="#featured-work" class="text-white">Featured work</a></li>
+            <li><a href="#photos" class="text-white">Photo Gallery</a></li>
+            <li><a href="#contact" class="text-white">Contact</a></li>
+          </ul>
+        </div>
+  
+        <!-- Social Media -->
+        <div class="col-md-4">
+          <h5>Follow Me</h5>
+          <div class="social-icons">
+            <a href="https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2F" target="_blank" class="text-white mx-2"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/" target="_blank" class="text-white mx-2"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.youtube.com/" target="_blank" class="text-white mx-2"><i class="fab fa-youtube"></i></a>
+            <a href="https://www.tiktok.com/" target="_blank" class="text-white mx-2"><i class="fab fa-tiktok"></i></a>
+            <a href="https://x.com/" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+          </div>
+        </div>
+      </div>
+  
+      <hr class="bg-secondary my-4">
+  
+      <!-- Copyright Section -->
+      <div class="text-center">
+        <p class="mb-0">&copy; 2024 Jon Paul Portfolio. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+  
+
+
+  <!-- Bootstrap and FontAwesome JavaScript -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+  
+  <!-- Font awesome -->
+  <script src="https://kit.fontawesome.com/456d64337e.js" crossorigin="anonymous"></script>
+  <script src="index.js"></script>
+
+</body>
+</html>
